@@ -1,0 +1,39 @@
+ *{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+
+
+
+header{
+    background-color: blueviolet;;
+    color: yellow;
+    text-align: center;
+    padding: 8px;
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+li{
+    background-color: white;
+    list-style: none;
+    width: 31%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+ }
+ li img{
+     width: 240px;
+     height: 220px;
+ }
+
+ button{
+     margin-top: 15px;
+ }
