@@ -3,9 +3,7 @@
      margin: 0px;
      box-sizing: border-box;
  }
-
-
-
+ 
 header{
     background-color: blueviolet;;
     color: yellow;
@@ -16,7 +14,8 @@ header{
 ul{
     display: flex;
     flex-wrap: wrap;
- 
+    background-color: aliceblue;
+
 }
 
 li{
@@ -27,13 +26,17 @@ li{
     justify-content: space-between;
     margin: 10px;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
  }
  li img{
-     width: 240px;
+     width: 200px;
      height: 220px;
  }
 
  button{
      margin-top: 15px;
+     padding: 5px;
+     color: white;
+     border-radius: 5px;
+     border: none
  }
